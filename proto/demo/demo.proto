@@ -1,0 +1,8 @@
+syntax = "proto3";
+package demo;
+
+import "google/protobuf/empty.proto";
+
+service Demo {
+  rpc HelloWorld(google.protobuf.Empty) returns (google.protobuf.Empty);
+}
